@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
   "render-build": "echo 'Build done'",
-  "start": "node index.js" // or your main server file
+  "start": "node index.js" 
 },
   "dev": "nodemon index.js",
   "test": "jest",

@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "start": "node index.js",
+  "render-build": "echo 'Build done'",
+  "start": "node index.js" // or your main server file
+},
   "dev": "nodemon index.js",
   "test": "jest",
   "render-build": "echo 'Build done'"

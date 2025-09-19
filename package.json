@@ -3,18 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "commonjs",
   "scripts": {
-  "render-build": "echo 'Build done'",
-  "start": "node index.js" 
-},
-  "dev": "nodemon index.js",
-  "test": "jest",
-  "render-build": "echo 'Build done'"
-},
+    "render-build": "echo 'Build done'",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "@supabase/supabase-js": "^2.57.4",
     "bcrypt": "^6.0.0",
